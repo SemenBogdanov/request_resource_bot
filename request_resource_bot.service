@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=semen106
+User=vkukoev
 WorkingDirectory=/home/semen106/bot/vkukoev/request_resource_bot
 ExecStart=/usr/bin/python3 /home/semen106/bot/vkukoev/request_resource_bot/main.py
 RestartSec=20
